@@ -1,0 +1,17 @@
+/node_modules/
+/dist/
+.env
+.env.*
+!.env.example
+
+# Runtime data — the content files (profile, projects, settings) are tracked,
+# but the inbox, accounts and signing key are generated locally.
+/data/users.json
+/data/messages.json
+/data/.session-key
+/data/*.tmp
+
+.DS_Store
+Thumbs.db
+*.bak
+coverage/

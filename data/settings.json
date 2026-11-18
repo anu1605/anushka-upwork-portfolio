@@ -1,0 +1,9 @@
+{
+  "name": "Anushka Tyagi",
+  "url": "http://localhost:5173",
+  "seo": {
+    "keywords": "software engineer, php developer, e-commerce, payment gateway integrations, portfolio",
+    "image": "/assets/img/og-cover.svg",
+    "type": "website"
+  }
+}

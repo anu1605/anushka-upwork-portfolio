@@ -1,0 +1,167 @@
+{
+    "name": "Anushka Tyagi",
+    "role": "Software Engineer",
+    "headline": "Software Engineer with 3+ years of experience across enterprise e-commerce systems, multi-currency payment workflows, and bidirectional data pipelines.",
+    "tagline": "I build payment, marketplace and POS systems that stay up when real money flows through them.",
+    "location": "Noida, Uttar Pradesh, India",
+    "availability": "#openToWork",
+    "linkedin": "https://linkedin.com/in/anushka-tyagi-58331717b/",
+    "github": "",
+    "summary": [
+        "Software Engineer with 3+ years of experience across enterprise e-commerce systems, multi-currency payment workflows, and bidirectional data pipelines.",
+        "Delivered custom modules for 27+ international clients, managing complex API integrations and shipping projects independently from requirements to production under strict deadlines.",
+        "Investigated and resolved high-priority production issues through debugging, root-cause analysis, and code-level fixes.",
+        "Comfortable adapting to new technologies such as implementing India Post's React-based DigiPIN in PHP-based platforms such as CS-Cart."
+    ],
+    "highlights": {
+        "Payment & Transaction": "Designed and delivered 5 international payment gateway integrations over REST APIs (including Stripe, Stripe Connect, dLocal Go, CyberSource Secure Acceptance and Mercado Pago), following PCI-DSS principles with client-side iframe tokenization and hosted checkout, implementing marketplace split payments, hold-and-capture, refund, and multi-currency return workflows.",
+        "POS & Retail Systems": "Extended a multi-vendor Point-of-Sale (POS) system with outlet/cashier session handling, drawer-based checkout, X/Z reports, QR-scanned invoices, and an RMA flow with multi-currency/multi-language support.",
+        "Marketplace": "Developed marketplace workflows, including auctions, multi-day booking/rental, and customer-to-customer (C2C) selling.",
+        "Advanced API Integrations": "Integrated third-party APIs for shipping (real-time rates, label generation, pickup scheduling), OTP authentication (Twilio/WhatsApp), and location services (Google address autocomplete, DigiPIN geo-addressing).",
+        "AI/ML Integrations": "Integrated and maintained AI/ML APIs for semantic search, automated image background removal, and product category prediction.",
+        "CMS Connectors": "Designed and developed OMS-style connectors, unidirectional (GraphQL, Bagisto) and bidirectional (REST, Unopim), syncing products, categories, customers, and orders across e-commerce platforms.",
+        "Performance & Infrastructure": "Improved performance and delivery through service workers, caching, prefetching, AMP/PWA techniques, Amazon S3 media storage, and Google Tag Manager behavior tracking.",
+        "Legacy Modernization & Code Health": "Refactored and upgraded PHP e-commerce codebases, framework version migrations, deprecation handling, and custom theme/plugin compatibility, validating changes on staging with QA and deploying to production.",
+        "Technical Delivery & Leadership": "Owned end-to-end delivery for 27+ international clients, requirement gathering, cross-team coordination with QA and DevOps, and L2/L3 technical support, and mentored 4 junior developers on company workflows in Linux environments."
+    },
+    "stats": [
+        {
+            "value": "3+",
+            "label": "Years of experience"
+        },
+        {
+            "value": "27+",
+            "label": "International clients"
+        },
+        {
+            "value": "5",
+            "label": "Payment gateways integrated"
+        },
+        {
+            "value": "4",
+            "label": "Junior developers mentored"
+        }
+    ],
+    "experience": [
+        {
+            "role": "Software Engineer",
+            "company": "Webkul Software Pvt. Ltd.",
+            "location": "Noida, India",
+            "period": "2024-2026",
+            "current": false,
+            "summary": "Software Engineer with 3+ years of experience across enterprise e-commerce systems, multi-currency payment workflows, and bidirectional data pipelines. Delivered custom modules for 27+ international clients, managing complex API integrations and shipping projects independently from requirements to production under strict deadlines. Investigated and resolved high-priority production issues through debugging, root-cause analysis, and code-level fixes. Comfortable adapting to new technologies such as implementing India Post's React-based DigiPIN in PHP-based platforms such as CS-Cart."
+        },
+        {
+            "role": "Full Stack Development Intern",
+            "company": "Intecons Software Lab Private Limited",
+            "location": "Jaipur, India",
+            "period": "2023",
+            "current": false,
+            "summary": "Developed web applications using PHP, SQL, JavaScript, and jQuery. Built web crawlers in PHP/Symfony to extract targeted customer data, using Tesseract OCR to convert image-based content into structured data that fed downstream ad-campaign bots."
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Technology in Electronics and Communication Engineering",
+            "institution": "Bharati Vidyapeeth's College of Engineering, New Delhi",
+            "period": "2018 — 2022",
+            "score": "CGPA 8.4"
+        }
+    ],
+    "certifications": [
+        {
+            "title": "AWS, DevOps & Cloud Computing",
+            "issuer": "Innovians Technologies",
+            "year": "2021"
+        },
+        {
+            "title": "Android App Development",
+            "issuer": "CodingNinjas",
+            "year": "2020"
+        }
+    ],
+    "skills": {
+        "Languages": [
+            "PHP (OOPs)",
+            "JavaScript",
+            "SQL / MySQL",
+            "HTML",
+            "CSS",
+            "Java",
+            "Python"
+        ],
+        "Frameworks & Platforms": [
+            "CS-Cart",
+            "OpenCart",
+            "Bootstrap",
+            "jQuery",
+            "MVC Framework",
+            "Laravel (familiar)"
+        ],
+        "APIs & Integrations": [
+            "REST APIs",
+            "GraphQL",
+            "Webhooks",
+            "Shipping Carrier APIs",
+            "Third-party SDKs",
+            "Shopify API"
+        ],
+        "Payment Gateways": [
+            "Stripe",
+            "Stripe Connect",
+            "PayUMoney",
+            "Mercado Pago",
+            "CyberSource",
+            "dLocal"
+        ],
+        "Integrations & Connectors": [
+            "Zoho CRM",
+            "Zoho Inventory",
+            "QuickBooks",
+            "Unopim (PIM)",
+            "Shopify",
+            "WooCommerce",
+            "Bagisto",
+            "Amazon",
+            "AliExpress Importer"
+        ],
+        "E-Commerce Systems": [
+            "Multi-vendor Marketplace",
+            "POS",
+            "Booking / Reservation",
+            "Wallet",
+            "RMA / Refunds",
+            "Subscription & Recurring Billing",
+            "B2B (RFQ / Quotation Cart)",
+            "B2B / B2C / C2C"
+        ],
+        "Cloud & Services": [
+            "Amazon S3",
+            "Twilio",
+            "Google Maps SDK",
+            "Google Tag Manager",
+            "reCAPTCHA"
+        ],
+        "Performance & SEO": [
+            "Caching",
+            "Message Queues / Async Processing",
+            "Advanced SEO",
+            "Sitemap Generation",
+            "Service Workers",
+            "PWA",
+            "AMP"
+        ],
+        "AI & Automation": [
+            "OCR (Tesseract)",
+            "Web Crawling / Scraping",
+            "AI assisted Playwright automation"
+        ],
+        "Tools": [
+            "Git",
+            "Linux",
+            "Composer",
+            "Postman",
+            "Figma-to-webpage design"
+        ]
+    }
+}
