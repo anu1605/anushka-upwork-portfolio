@@ -62,17 +62,6 @@ export default function Header() {
                         <Icon name="moon" className="icon icon-moon" />
                     </button>
 
-                    {profile?.linkedin ? (
-                        <a
-                            className="btn btn-primary btn-sm header-cta"
-                            href={profile.linkedin}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Hire me
-                        </a>
-                    ) : null}
-
                     <button
                         type="button"
                         className="nav-toggle"

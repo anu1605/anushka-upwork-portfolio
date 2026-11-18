@@ -49,15 +49,8 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-col">
-                    <h3>Get in touch</h3>
+                    <h3>Location</h3>
                     <ul className="footer-links">
-                        {profile?.linkedin ? (
-                            <li>
-                                <a href={profile.linkedin} rel="noopener noreferrer" target="_blank">
-                                    LinkedIn
-                                </a>
-                            </li>
-                        ) : null}
                         <li>{profile?.location ?? ''}</li>
                     </ul>
                 </div>

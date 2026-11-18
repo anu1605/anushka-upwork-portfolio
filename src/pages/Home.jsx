@@ -88,19 +88,6 @@ export default function Home() {
                                 <span>E-commerce &amp; payments</span>
                             </li>
                         </ul>
-
-                        <div className="hero-card-actions">
-                            {profile?.linkedin ? (
-                                <a
-                                    className="btn btn-ghost btn-block"
-                                    href={profile.linkedin}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    LinkedIn profile
-                                </a>
-                            ) : null}
-                        </div>
                     </aside>
                 </div>
             </section>
@@ -202,32 +189,6 @@ export default function Home() {
                             </li>
                         ))}
                     </ol>
-                </div>
-            </section>
-
-            <section className="section cta-section">
-                <div className="container">
-                    <div className="cta-card">
-                        <div>
-                            <h2>Have an integration or CS-Cart project in mind?</h2>
-                            <p>
-                                I&rsquo;ve shipped payment, POS and marketplace systems for 27+ international clients.
-                                Let&rsquo;s talk about yours.
-                            </p>
-                        </div>
-                        {profile?.linkedin ? (
-                            <div className="cta-actions">
-                                <a
-                                    className="btn btn-ghost"
-                                    href={profile.linkedin}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    LinkedIn profile
-                                </a>
-                            </div>
-                        ) : null}
-                    </div>
                 </div>
             </section>
         </>

@@ -715,12 +715,6 @@ pre {
     letter-spacing: 0.08em;
 }
 
-.hero-card-actions {
-    display: grid;
-    gap: 0.6rem;
-    margin-top: 1.4rem;
-}
-
 /* --- Page hero ---------------------------------------------------------- */
 .page-hero {
     padding: 4rem 0 3rem;
@@ -1098,52 +1092,6 @@ pre {
     text-transform: uppercase;
     color: var(--brand);
     margin-bottom: 0.3rem !important;
-}
-
-/* --- CTA ---------------------------------------------------------------- */
-.cta-section {
-    padding-bottom: 6rem;
-}
-
-.cta-card {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-    flex-wrap: wrap;
-    padding: 2.75rem;
-    border-radius: var(--radius-lg);
-    background: linear-gradient(135deg, var(--brand), var(--accent));
-    color: #fff;
-    box-shadow: var(--shadow-lg);
-}
-
-.cta-card h2 {
-    font-size: clamp(1.35rem, 3vw, 1.9rem);
-    margin-bottom: 0.5rem;
-}
-
-.cta-card p {
-    margin: 0;
-    opacity: 0.92;
-    max-width: 52ch;
-}
-
-.cta-actions {
-    display: flex;
-    gap: 0.75rem;
-    flex-wrap: wrap;
-}
-
-.cta-actions .btn-ghost {
-    background: rgba(255, 255, 255, 0.14);
-    border-color: rgba(255, 255, 255, 0.35);
-    color: #fff;
-}
-
-.cta-actions .btn-ghost:hover {
-    background: rgba(255, 255, 255, 0.24);
-    color: #fff;
 }
 
 /* --- Filter bar --------------------------------------------------------- */
@@ -1839,9 +1787,6 @@ select {
         border-radius: var(--radius-sm);
     }
 
-    .header-cta {
-        display: none;
-    }
 }
 
 @media (max-width: 720px) {
@@ -1868,10 +1813,6 @@ select {
 
     .form-grid {
         grid-template-columns: 1fr;
-    }
-
-    .cta-card {
-        padding: 1.75rem;
     }
 
     .footer-grid {
@@ -1917,7 +1858,6 @@ select {
     .site-header,
     .site-footer,
     .hero-actions,
-    .cta-section,
     .flash-wrap {
         display: none !important;
     }

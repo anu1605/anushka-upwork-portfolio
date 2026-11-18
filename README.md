@@ -137,7 +137,7 @@ portfolio/
 Everything is a JSON array or object inside `data/`.
 
 **`profile.json`** — `name`, `role`, `headline`, `summary[]`, `highlights{}`, `skills{}`,
-`stats[]`, `experience[]`, `education[]`, `certifications[]`, `location`, `linkedin`, `github`.
+`stats[]`, `experience[]`, `education[]`, `certifications[]`, `location`, `github`.
 
 **`projects.json`** — each project has `id`, `slug`, `title`, `summary`, `description`,
 `category`, `tech_stack` (comma separated), `highlights` (newline separated), `client`, `role`,

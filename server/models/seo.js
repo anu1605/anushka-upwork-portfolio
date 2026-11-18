@@ -35,7 +35,7 @@ export async function jsonLd() {
             '@type': 'PostalAddress',
             addressLocality: siteProfile.location ?? '',
         },
-        sameAs: [siteProfile.linkedin, siteProfile.github].filter(Boolean),
+        sameAs: [siteProfile.github].filter(Boolean),
     };
 
     return JSON.stringify(data);
